@@ -1,0 +1,49 @@
+﻿# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment variables - NEVER commit
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pino.log*
+
+# Test coverage
+coverage/
+
+# Editor & OS
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Docker volumes (local)
+mongo_data/
+redis_data/
+
+# Benchmark outputs (keep the committed ones in docs/bench/)
+docs/bench/*.json.local
+
+# Playwright
+playwright-report/
+test-results/
